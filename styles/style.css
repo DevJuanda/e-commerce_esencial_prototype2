@@ -211,6 +211,20 @@ header .navbar ul {
     }
 }
 
+@media only screen and (max-width: 425px) {
+    #logopagina2 img {
+        width: 8rem;
+    }
+
+    
+    #media2 img{
+        width: 1.2rem;
+        padding: 0;
+        filter: brightness(0) invert(1);
+        transition: filter 0.3s ease-in-out;
+    }
+}
+
 /* main section */
 
 .banner {
@@ -558,7 +572,13 @@ header .navbar ul {
 }
 
 @media only screen and (max-width: 560px) {
+    .topimage .coco {
+        font-size: 0.8rem;
+    }
 
+    .watermelon .esencialbutton{
+        display: none;
+    }
 }
 
 /* features */
@@ -597,8 +617,8 @@ header .navbar ul {
     justify-items: center;
 }
 
-.topimage2 video {
-    min-width: 60%;
+.topimage2 img {
+    width: 60%;
     max-height: 71vh;
     justify-self: end;
     object-fit: cover;
@@ -678,6 +698,12 @@ header .navbar ul {
 
 .bottom-message h1 {
     position: relative;
+}
+
+@media only screen and (max-width: 560px) {
+    .bottom-message .esencialbutton{
+        display: none;
+    }
 }
 
 /* footer */
